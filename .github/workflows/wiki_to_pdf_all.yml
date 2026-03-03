@@ -11,7 +11,7 @@ env:
   REPO_OWNER: RobomationLAB # github username 작성
   REPO_NAME: User_Guide_KR # main repository name 작성
   WIKI_REPO_NAME: User_Guide_KR.wiki # wiki repository name 작성
-  PDF_FILENAME: User_Guide_Wiki.pdf # 생성될 PDF 파일명 작성
+  PDF_FILENAME: User_Guide_Wiki_KR.pdf # 생성될 PDF 파일명 작성
   COMMITTER_NAME: github-actions[bot] 
   COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
   BRANCH: main
