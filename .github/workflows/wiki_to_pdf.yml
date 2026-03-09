@@ -245,7 +245,7 @@ jobs:
                 return ""
             m = re.search(r'width\s*=\s*([0-9.]+\s*%)', attr, re.IGNORECASE)
             if m:
-                return width_percent_to_opt(m.group(1))
+                return width_to_opt(m.group(1))
             m2 = re.search(r'width\s*=\s*([0-9.]+\s*\\linewidth)', attr, re.IGNORECASE)
             if m2:
                 return f"width={m2.group(1).strip()}"
